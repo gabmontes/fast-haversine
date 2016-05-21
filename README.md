@@ -30,3 +30,7 @@ Calculates the distance between the to given coordinates.
 The coordinates are objects containing `lat` and `lon` properties.
 
 Returns a number representing the distance in meters.
+
+# Benchmarks
+
+Like benchmarks? Then run `npm run benchmark`.

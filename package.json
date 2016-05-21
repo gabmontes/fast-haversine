@@ -9,7 +9,7 @@
   "repository": "gabmontes/fast-haversine",
   "scripts": {
     "prebench": "npm install",
-    "bench": "node benchmark/index.js"
+    "benchmark": "node benchmark/index.js"
   },
   "devDependencies": {
     "coordist": "0.0.2",
