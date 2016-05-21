@@ -33,4 +33,19 @@ Returns a number representing the distance in meters.
 
 # Benchmarks
 
-Like benchmarks? Then run `npm run benchmark`.
+Like benchmarks? Then run `npm run benchmark`. Current results are:
+
+```
+$ npm run benchmark
+
+[ { name: '../lib', time: '100%', dist: '100%' },
+  { name: 'haversine-distance', time: '139%', dist: '99%' },
+  { name: 's-haversine', time: '151%', dist: '99%' },
+  { name: 'gps-distance', time: '163%', dist: '99%' },
+  { name: 'haversine', time: '190%', dist: '99%' },
+  { name: 'geodesy', time: '221%', dist: '99%' },
+  { name: 'coordist', time: '302%', dist: '100%' },
+  { name: 'geodist', time: '307%', dist: '99%' },
+  { name: 'node-geo-distance', time: '535%', dist: '99%' },
+  { name: 'jeyo-distans', time: '828%', dist: '99%' } ]
+```
