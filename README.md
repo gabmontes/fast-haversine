@@ -13,7 +13,7 @@ npm install fast-haversine
 Given two coordinates, i.e. departure and arrival of a infamous helicopter trip, calculate the distance in meters:
 
 ```js
-const distance = require('fast-haversine');
+const distance = require("fast-haversine");
 
 const from = { lat: -34.607814, lon: -58.370301 };
 const to = { lat: -34.5161001, lon: -58.4847728 };
@@ -31,9 +31,14 @@ The coordinates are objects containing `lat` and `lon` properties.
 
 Returns a number representing the distance in meters.
 
-# Benchmarks
+# Development and Benchmarks
 
-Like benchmarks? Then run `npm run benchmark`. Current results are:
+For insights on the development of this library and how it was optimized, take a look at this post:
+
+https://blog.utoctadel.com.ar/2016/05/20/fast-haversine.html
+
+And if you want to run the benchmanks by yourself, try `npm run benchmark`.
+Current results are:
 
 ```
 $ npm run benchmark
