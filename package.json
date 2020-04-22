@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "coordist": "0.0.2",
-    "geodesy": "^1.1.0",
+    "geodesy": "^2.2.1",
     "geodist": "^0.2.1",
     "gps-distance": "0.0.4",
     "haversine": "^1.0.0",
